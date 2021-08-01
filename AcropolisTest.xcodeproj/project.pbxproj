@@ -96,7 +96,6 @@
 				18155F0426B4ED2E0060F2D7 /* View */,
 				18155F0526B4ED370060F2D7 /* Controller */,
 				18155F0726B4ED5A0060F2D7 /* Resources */,
-				18155EF726B4ED1B0060F2D7 /* Assets.xcassets */,
 				18155EFC26B4ED1B0060F2D7 /* Info.plist */,
 				18155F0626B4ED4E0060F2D7 /* Supporting files */,
 			);
@@ -149,6 +148,7 @@
 		18155F0726B4ED5A0060F2D7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				18155EF726B4ED1B0060F2D7 /* Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";

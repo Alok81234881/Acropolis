@@ -22,7 +22,7 @@ class RegisterViewController: UIViewController {
     @IBAction func registerButtonPressed(_ sender: UIButton) {
         SVProgressHUD.show()
         print(emailTextField.text!)
-        Auth.auth().createUser(withEmail: emailTextField.text!, password: passwordTextField.text!) { (user, error) in
+        Auth.auth().createUser(withEmail: emailTextField.text!, password: passwordTextField.text!) { [unowned self](user, error) in
             
             if error != nil{
                 print(error!)

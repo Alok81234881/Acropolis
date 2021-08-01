@@ -8,8 +8,6 @@
 import UIKit
 
 class EntertainmentViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    
-    
 
     @IBOutlet weak var tableView: UITableView!
     var entertainmentList : [Entertainment] = [Entertainment]()
@@ -67,7 +65,7 @@ class EntertainmentViewController: UIViewController, UITableViewDelegate, UITabl
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel) { (action) in
             
         }
-        alert.addTextField { (textField) in
+        alert.addTextField { [unowned self](textField) in
             textField.text = self.entertainmentList[indexPath.row].name
             
         }

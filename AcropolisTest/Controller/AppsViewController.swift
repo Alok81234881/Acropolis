@@ -58,7 +58,7 @@ class AppsViewController: UIViewController, UITableViewDelegate, UITableViewData
             self.appList[indexPath.row].name = textField.text! as String
             self.tableView.reloadData()
         }
-        alert.addTextField { (textField) in
+        alert.addTextField { [unowned self](textField) in
             textField.text = self.appList[indexPath.row].name
         }
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel) { (action) in

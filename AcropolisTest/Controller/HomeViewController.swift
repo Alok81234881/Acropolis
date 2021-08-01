@@ -58,7 +58,7 @@ class HomeViewController: UITabBarController {
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel) { (action) in
             
         }
-        alert.addTextField { (textField) in
+        alert.addTextField { [unowned self](textField) in
             textField.text = self.feedback
         }
         alert.addAction(action)

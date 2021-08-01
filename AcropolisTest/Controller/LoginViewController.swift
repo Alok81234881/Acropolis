@@ -22,7 +22,7 @@ class LoginViewController: UIViewController {
 
     @IBAction func loginButtonPressed(_ sender: UIButton) {
         SVProgressHUD.show()
-        Auth.auth().signIn(withEmail: emailTextField.text!, password: passwordTextField.text!) { (user, error) in
+        Auth.auth().signIn(withEmail: emailTextField.text!, password: passwordTextField.text!) { [unowned self](user, error) in
             
             if error != nil{
                 print(error!)
