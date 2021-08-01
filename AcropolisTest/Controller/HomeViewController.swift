@@ -10,7 +10,8 @@ import Firebase
 
 class HomeViewController: UITabBarController {
     
-    let btn = UIButton()
+    let textView = UITextView(frame: CGRect.zero)
+    var feedback = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,5 +44,26 @@ class HomeViewController: UITabBarController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    @IBAction func feedbackButtonPressed(_ sender: UIBarButtonItem) {
+          
+        let alert = UIAlertController(title: "Enter Feednack", message: nil, preferredStyle: UIAlertController.Style.alert)
+        
+        let action = UIAlertAction(title: "Sumbit", style: .default) { (alertAction) in
+          let textField = alert.textFields![0] as UITextField
+            self.feedback = textField.text!
+            
+        }
+        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel) { (action) in
+            
+        }
+        alert.addTextField { (textField) in
+            textField.text = self.feedback
+        }
+        alert.addAction(action)
+        alert.addAction(cancelAction)
+//        self.view.present(EntertainmentViewController, animated:true, completion: nil)
+        self.present(alert, animated: true, completion: nil)
+    }
+    
+    
 }

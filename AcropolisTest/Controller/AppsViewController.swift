@@ -13,14 +13,33 @@ class AppsViewController: UIViewController, UITableViewDelegate, UITableViewData
     var appList : [App] = [App]()
     override func viewDidLoad() {
         super.viewDidLoad()
-        let first = App()
-        first.name = "First App"
-        let second  = App()
-        second.name = "Seond App"
-        appList.append(first)
-        appList.append(second)
+        self.showDemoData()
+        self.tabBarController?.navigationItem.title = "Apps"
 
         // Do any additional setup after loading the view.
+    }
+    func showDemoData() {
+        let first = App()
+        first.name = "Raxa"
+        let second  = App()
+        second.name = "Netflix"
+        let second2  = App()
+        second2.name = "Amazon Prime Video"
+        let second3  = App()
+        second3.name = "Facebook"
+        let second4  = App()
+        second4.name = "Twitter"
+        let second5  = App()
+        second5.name = "Zomatto"
+        appList.append(first)
+        appList.append(second)
+        appList.append(second2)
+        appList.append(second3)
+        appList.append(second4)
+        appList.append(second5)
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        self.tabBarController?.navigationItem.title = "Apps"
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return appList.count
@@ -31,7 +50,25 @@ class AppsViewController: UIViewController, UITableViewDelegate, UITableViewData
         cell.textLabel?.text = appList[indexPath.row].name
         return cell
     }
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let alert = UIAlertController(title: "Edit item", message: nil, preferredStyle: UIAlertController.Style.alert)
+        
+        let action = UIAlertAction(title: "Update", style: .default) { (alertAction) in
+          let textField = alert.textFields![0] as UITextField
+            self.appList[indexPath.row].name = textField.text! as String
+            self.tableView.reloadData()
+        }
+        alert.addTextField { (textField) in
+            textField.text = self.appList[indexPath.row].name
+        }
+        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel) { (action) in
+            
+        }
+        alert.addAction(action)
+        alert.addAction(cancelAction)
+//        self.view.present(EntertainmentViewController, animated:true, completion: nil)
+        self.present(alert, animated: true, completion: nil)
+    }
 
     /*
     // MARK: - Navigation
