@@ -102,7 +102,7 @@
                                     <action selector="registerButtonPressed:" destination="DDn-Gm-01Z" eventType="touchUpInside" id="rNT-Ix-o2m"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zqm-NQ-MmN">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password(length&gt;= 6)" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zqm-NQ-MmN">
                                 <rect key="frame" x="17" y="253" width="380" height="42"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="tOK-lK-PjV"/>
@@ -317,7 +317,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background1" translatesAutoresizingMaskIntoConstraints="NO" id="Tl4-a0-AaU">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8sm-55-kfN">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password(length&gt;= 6)" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8sm-55-kfN">
                                 <rect key="frame" x="17" y="253" width="380" height="42"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="OQu-qG-omh"/>
@@ -397,7 +397,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="O3u-5e-QG0"/>
+        <segue reference="LXD-dv-tRv"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="app" catalog="system" width="128" height="114"/>

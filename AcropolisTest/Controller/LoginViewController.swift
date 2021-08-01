@@ -18,10 +18,10 @@ class LoginViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    
+
 
     @IBAction func loginButtonPressed(_ sender: UIButton) {
-       // SVProgressHUD.show()
+        SVProgressHUD.show()
         Auth.auth().signIn(withEmail: emailTextField.text!, password: passwordTextField.text!) { (user, error) in
             
             if error != nil{
@@ -29,8 +29,10 @@ class LoginViewController: UIViewController {
             }
             else{
                 print("Log In successful")
-                
-               // SVProgressHUD.dismiss()
+               // DispatchQueue.main.async {
+                    SVProgressHUD.dismiss()
+               // }
+               
                 
                 self.performSegue(withIdentifier: "goToHome", sender: self)
                 

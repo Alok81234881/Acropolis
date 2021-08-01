@@ -7,6 +7,7 @@
 
 import UIKit
 import Firebase
+import SVProgressHUD
 
 class HomeViewController: UITabBarController {
     
@@ -23,10 +24,11 @@ class HomeViewController: UITabBarController {
     }
     
     @IBAction func logoutButtonPressed(_ sender: UIBarButtonItem) {
-        
+        SVProgressHUD.show()
         
         do {
             try Auth.auth().signOut()
+            SVProgressHUD.dismiss()
             navigationController?.popToRootViewController(animated: true)
             
         }
