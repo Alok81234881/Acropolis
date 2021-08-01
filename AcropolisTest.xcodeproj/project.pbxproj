@@ -99,7 +99,6 @@
 				18155EF726B4ED1B0060F2D7 /* Assets.xcassets */,
 				18155EFC26B4ED1B0060F2D7 /* Info.plist */,
 				18155F0626B4ED4E0060F2D7 /* Supporting files */,
-				18155EF926B4ED1B0060F2D7 /* LaunchScreen.storyboard */,
 			);
 			path = AcropolisTest;
 			sourceTree = "<group>";
@@ -118,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				18155EF426B4ED170060F2D7 /* Main.storyboard */,
+				18155EF926B4ED1B0060F2D7 /* LaunchScreen.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
