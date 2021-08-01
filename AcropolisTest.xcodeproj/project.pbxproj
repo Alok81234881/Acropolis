@@ -3,27 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		18155EEF26B4ED170060F2D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18155EEE26B4ED170060F2D7 /* AppDelegate.swift */; };
 		18155EF126B4ED170060F2D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18155EF026B4ED170060F2D7 /* SceneDelegate.swift */; };
-		18155EF326B4ED170060F2D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18155EF226B4ED170060F2D7 /* ViewController.swift */; };
+		18155EF326B4ED170060F2D7 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18155EF226B4ED170060F2D7 /* WelcomeViewController.swift */; };
 		18155EF626B4ED170060F2D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18155EF426B4ED170060F2D7 /* Main.storyboard */; };
 		18155EF826B4ED1B0060F2D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18155EF726B4ED1B0060F2D7 /* Assets.xcassets */; };
 		18155EFB26B4ED1B0060F2D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18155EF926B4ED1B0060F2D7 /* LaunchScreen.storyboard */; };
+		18155F0E26B4EEBD0060F2D7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18155F0D26B4EEBD0060F2D7 /* GoogleService-Info.plist */; };
+		1889498126B4F83F00DC13CC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1889498026B4F83F00DC13CC /* LoginViewController.swift */; };
+		1889498426B4F84F00DC13CC /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1889498326B4F84F00DC13CC /* RegisterViewController.swift */; };
+		1889499A26B50D5600DC13CC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1889499926B50D5600DC13CC /* HomeViewController.swift */; };
+		1889499D26B50D8800DC13CC /* EntertainmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1889499C26B50D8800DC13CC /* EntertainmentViewController.swift */; };
+		188949A026B50D9B00DC13CC /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1889499F26B50D9B00DC13CC /* BooksViewController.swift */; };
+		188949A326B50DA800DC13CC /* AppsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188949A226B50DA800DC13CC /* AppsViewController.swift */; };
+		188949A626B5120800DC13CC /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188949A526B5120800DC13CC /* Book.swift */; };
+		188949A926B5122100DC13CC /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188949A826B5122100DC13CC /* App.swift */; };
+		188949AC26B5122F00DC13CC /* Entertainment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188949AB26B5122F00DC13CC /* Entertainment.swift */; };
+		D49A815DD65C1288239EA216 /* Pods_AcropolisTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3851C1344CBA907371714F9 /* Pods_AcropolisTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06AAD21BF1CF08F9F82800CE /* Pods-AcropolisTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcropolisTest.release.xcconfig"; path = "Target Support Files/Pods-AcropolisTest/Pods-AcropolisTest.release.xcconfig"; sourceTree = "<group>"; };
 		18155EEB26B4ED170060F2D7 /* AcropolisTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcropolisTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18155EEE26B4ED170060F2D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18155EF026B4ED170060F2D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		18155EF226B4ED170060F2D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18155EF226B4ED170060F2D7 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		18155EF526B4ED170060F2D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18155EF726B4ED1B0060F2D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18155EFA26B4ED1B0060F2D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18155EFC26B4ED1B0060F2D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18155F0D26B4EEBD0060F2D7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1889498026B4F83F00DC13CC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1889498326B4F84F00DC13CC /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		1889499926B50D5600DC13CC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1889499C26B50D8800DC13CC /* EntertainmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntertainmentViewController.swift; sourceTree = "<group>"; };
+		1889499F26B50D9B00DC13CC /* BooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
+		188949A226B50DA800DC13CC /* AppsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsViewController.swift; sourceTree = "<group>"; };
+		188949A526B5120800DC13CC /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		188949A826B5122100DC13CC /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		188949AB26B5122F00DC13CC /* Entertainment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entertainment.swift; sourceTree = "<group>"; };
+		6A18BE0DAC8DC5AE20A3F9FF /* Pods-AcropolisTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcropolisTest.debug.xcconfig"; path = "Target Support Files/Pods-AcropolisTest/Pods-AcropolisTest.debug.xcconfig"; sourceTree = "<group>"; };
+		A3851C1344CBA907371714F9 /* Pods_AcropolisTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AcropolisTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D49A815DD65C1288239EA216 /* Pods_AcropolisTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00975470A5AAF54B1E2C335D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A18BE0DAC8DC5AE20A3F9FF /* Pods-AcropolisTest.debug.xcconfig */,
+				06AAD21BF1CF08F9F82800CE /* Pods-AcropolisTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		18155EE226B4ED170060F2D7 = {
 			isa = PBXGroup;
 			children = (
 				18155EED26B4ED170060F2D7 /* AcropolisTest */,
 				18155EEC26B4ED170060F2D7 /* Products */,
+				00975470A5AAF54B1E2C335D /* Pods */,
+				C4C6B35725E0BF74221BA7EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +92,73 @@
 		18155EED26B4ED170060F2D7 /* AcropolisTest */ = {
 			isa = PBXGroup;
 			children = (
-				18155EEE26B4ED170060F2D7 /* AppDelegate.swift */,
-				18155EF026B4ED170060F2D7 /* SceneDelegate.swift */,
-				18155EF226B4ED170060F2D7 /* ViewController.swift */,
-				18155EF426B4ED170060F2D7 /* Main.storyboard */,
+				18155F0326B4ED270060F2D7 /* Model */,
+				18155F0426B4ED2E0060F2D7 /* View */,
+				18155F0526B4ED370060F2D7 /* Controller */,
+				18155F0726B4ED5A0060F2D7 /* Resources */,
 				18155EF726B4ED1B0060F2D7 /* Assets.xcassets */,
-				18155EF926B4ED1B0060F2D7 /* LaunchScreen.storyboard */,
 				18155EFC26B4ED1B0060F2D7 /* Info.plist */,
+				18155F0626B4ED4E0060F2D7 /* Supporting files */,
+				18155EF926B4ED1B0060F2D7 /* LaunchScreen.storyboard */,
 			);
 			path = AcropolisTest;
+			sourceTree = "<group>";
+		};
+		18155F0326B4ED270060F2D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				188949A526B5120800DC13CC /* Book.swift */,
+				188949AB26B5122F00DC13CC /* Entertainment.swift */,
+				188949A826B5122100DC13CC /* App.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18155F0426B4ED2E0060F2D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18155EF426B4ED170060F2D7 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18155F0526B4ED370060F2D7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18155EF226B4ED170060F2D7 /* WelcomeViewController.swift */,
+				1889498326B4F84F00DC13CC /* RegisterViewController.swift */,
+				1889498026B4F83F00DC13CC /* LoginViewController.swift */,
+				18155EEE26B4ED170060F2D7 /* AppDelegate.swift */,
+				18155EF026B4ED170060F2D7 /* SceneDelegate.swift */,
+				1889499926B50D5600DC13CC /* HomeViewController.swift */,
+				1889499C26B50D8800DC13CC /* EntertainmentViewController.swift */,
+				1889499F26B50D9B00DC13CC /* BooksViewController.swift */,
+				188949A226B50DA800DC13CC /* AppsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18155F0626B4ED4E0060F2D7 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				18155F0D26B4EEBD0060F2D7 /* GoogleService-Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		18155F0726B4ED5A0060F2D7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C4C6B35725E0BF74221BA7EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3851C1344CBA907371714F9 /* Pods_AcropolisTest.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18155EFF26B4ED1B0060F2D7 /* Build configuration list for PBXNativeTarget "AcropolisTest" */;
 			buildPhases = (
+				1ED83DB023B28B2D979D9179 /* [CP] Check Pods Manifest.lock */,
 				18155EE726B4ED170060F2D7 /* Sources */,
 				18155EE826B4ED170060F2D7 /* Frameworks */,
 				18155EE926B4ED170060F2D7 /* Resources */,
+				D56713D927D10FF203357C0D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18155EFB26B4ED1B0060F2D7 /* LaunchScreen.storyboard in Resources */,
+				18155F0E26B4EEBD0060F2D7 /* GoogleService-Info.plist in Resources */,
 				18155EF826B4ED1B0060F2D7 /* Assets.xcassets in Resources */,
 				18155EF626B4ED170060F2D7 /* Main.storyboard in Resources */,
 			);
@@ -132,14 +229,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1ED83DB023B28B2D979D9179 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AcropolisTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D56713D927D10FF203357C0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AcropolisTest/Pods-AcropolisTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AcropolisTest/Pods-AcropolisTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AcropolisTest/Pods-AcropolisTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18155EE726B4ED170060F2D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18155EF326B4ED170060F2D7 /* ViewController.swift in Sources */,
+				1889498126B4F83F00DC13CC /* LoginViewController.swift in Sources */,
+				188949A026B50D9B00DC13CC /* BooksViewController.swift in Sources */,
+				188949A926B5122100DC13CC /* App.swift in Sources */,
+				1889498426B4F84F00DC13CC /* RegisterViewController.swift in Sources */,
+				18155EF326B4ED170060F2D7 /* WelcomeViewController.swift in Sources */,
 				18155EEF26B4ED170060F2D7 /* AppDelegate.swift in Sources */,
+				188949A326B50DA800DC13CC /* AppsViewController.swift in Sources */,
 				18155EF126B4ED170060F2D7 /* SceneDelegate.swift in Sources */,
+				188949AC26B5122F00DC13CC /* Entertainment.swift in Sources */,
+				1889499A26B50D5600DC13CC /* HomeViewController.swift in Sources */,
+				188949A626B5120800DC13CC /* Book.swift in Sources */,
+				1889499D26B50D8800DC13CC /* EntertainmentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +431,7 @@
 		};
 		18155F0026B4ED1B0060F2D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A18BE0DAC8DC5AE20A3F9FF /* Pods-AcropolisTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,13 +443,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.singh.alok.AcropolisTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		18155F0126B4ED1B0060F2D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06AAD21BF1CF08F9F82800CE /* Pods-AcropolisTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,7 +462,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.singh.alok.AcropolisTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

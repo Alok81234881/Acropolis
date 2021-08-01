@@ -1,0 +1,6 @@
+framework module Pods_AcropolisTest {
+  umbrella header "Pods-AcropolisTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
